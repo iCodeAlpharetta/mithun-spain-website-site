@@ -1,0 +1,17 @@
+@font-face{
+    font-family: "Wonderian";
+    src: url("./Wonderian.otf")
+}
+body{
+    background-color: rgb(0, 26, 255);
+    color:aliceblue;
+    font-family:"Wonderian";
+    
+}
+h1{
+     margin-left: 50%;
+     font-size: 5px; 
+}
+td,th{
+    border: 17px solid red
+}
