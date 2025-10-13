@@ -18,7 +18,7 @@ a {
 }
 .box::after {
   content: attr(title);
-  font-size: 1rem;
+  font-size: 35pt;
   text-align: center;
   display: block;
   position: absolute;
@@ -48,7 +48,7 @@ a {
   opacity: 1;
   transform: scale(0.5) translateY(-70%) translateX(20%);
   background-position: 0.5em 1em;
-  font-size: 1em;
+  font-size: 35pt;
 }
 a.box-small {
   display: inline-block;
