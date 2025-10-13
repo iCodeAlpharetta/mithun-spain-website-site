@@ -18,7 +18,7 @@ a {
 }
 .box::after {
   content: attr(title);
-  font-size: 1em;
+  font-size: 1rem;
   text-align: center;
   display: block;
   position: absolute;
@@ -49,4 +49,14 @@ a {
   transform: scale(0.5) translateY(-70%) translateX(20%);
   background-position: 0.5em 1em;
   font-size: 1em;
+}
+a.box-small {
+  display: inline-block;
+  color: rgb(255, 0, 0);
+  text-decoration: none;
+  font-family: Helvetica;
+  font-size: 1em;
+  font-weight: lighter;
+  vertical-align: top;
+  transition: color 0.2s ease;
 }
